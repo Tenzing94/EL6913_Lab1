@@ -1,6 +1,6 @@
 # EL6913_Lab1
 EL-GY 6913 "Computing Systems Architecture" Lab1 - Three stage pipelined MIPS
-### Assignment
+## Assignment
 In this Lab assignment, you will implement an cycle-accurate simulator for a pipelined MIPS processor in C++. The simulator supports a subset of the MIPS instruction set and should model the execution of each instruction with cycle accuracy. The MIPS processor you will model has a three stage pipeline.
 
 The MIPS program is provided to the simulator as a text file “imem.txt” file which is used to initialize the Instruction Memory. Each line of the file corresponds to a Byte stored in the Instruction Memory in binary format, with the first line at address 0, the next line at address 1 and so on. Four contiguous lines correspond to a whole instruction. Note that the words stored in memory are in “Big-Endian” format, meaning that the most significant byte is stored first.
